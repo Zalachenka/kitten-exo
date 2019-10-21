@@ -1,0 +1,45 @@
+body {
+  background-color: green;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 200px 150px 200px;
+}
+.container .title {
+  background-color: lightgray;
+  text-align: center;
+}
+.container .menu {
+  background-color: #56c841;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.container .menu div {
+  margin-right: 55px;
+}
+.footer div {
+  margin-right: 55px;
+}
+.kitten-data {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  flex: 0 1 30%;
+}
+.main-page {
+  display: flex;
+  background-color: #b5cf6c;
+  padding: 10px 0px 10px 10px;
+}
+img {
+  width: 100%;
+}
+.main-para {
+  padding-left: 10px;
+}
